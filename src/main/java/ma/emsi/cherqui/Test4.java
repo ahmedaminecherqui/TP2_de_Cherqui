@@ -31,7 +31,7 @@ public class Test4 {
         //  Load Gemini API key
         String apiKey = System.getenv("GEMINI_API_KEY");
 
-//  Chat model (LLM)
+        //  Chat model (LLM)
         ChatModel chatModel = GoogleAiGeminiChatModel.builder()
                 .apiKey(apiKey)
                 .modelName("gemini-2.5-flash")  // works with LangChain4j
