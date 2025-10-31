@@ -24,6 +24,7 @@ public class Test6 {
                     .temperature(0.2)
                     .responseFormat(ResponseFormat.TEXT) // TEXT or JSON
                     .timeout(Duration.ofSeconds(60))
+                    .logRequestsAndResponses(true)
                     .build();
 
             AssistantMeteo assistant =
